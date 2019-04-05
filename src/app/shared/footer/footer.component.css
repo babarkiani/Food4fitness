@@ -44,14 +44,55 @@
   
   #fh5co-footer {
     position: relative;
+    
   }
+  .button11 {
+      
+    width: 30%;
+    float: left;
+    background-color: #0FA3B1;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 0px 3px 3px 0px;
+    
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+    border: 1px solid #0FA3B1;
+    padding: 12px
+
+    
+  }
+
+  .text2{
+    margin-bottom: 15px;
+    /* font-weight: bold; */
+    font-size: 12px;    
+    letter-spacing: 2px;
+    
+    
+  }
+  
+  .text11 {
+    width: 70%;
+    float: left;
+    padding: 22px;
+    border: 1px solid #0FA3B1;
+    border-radius: 3px 0px 0px 3px;
+    
+    
+  }
+  a:hover{
+      color: #008CBA !important; 
+  }
+  .button2 {background-color: #008CBA;}
   #fh5co-footer .overlay {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(255, 255, 255, 255);
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -62,7 +103,7 @@
     font-size: 15px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.8);
   }
   #fh5co-footer .fh5co-footer-links {
     padding: 0;
@@ -74,7 +115,7 @@
     list-style: none;
   }
   #fh5co-footer .fh5co-footer-links li a {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.8);
     text-decoration: none;
   }
   #fh5co-footer .fh5co-footer-links li a:hover {
