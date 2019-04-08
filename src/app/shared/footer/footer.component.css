@@ -49,7 +49,7 @@
   .button11 {
       
     width: 30%;
-    float: left;
+    
     background-color: #0FA3B1;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -74,13 +74,16 @@
   }
   
   .text11 {
-    width: 70%;
+    width: 60%;
     float: left;
-    padding: 22px;
+    padding: 12px;
     border: 1px solid #0FA3B1;
     border-radius: 3px 0px 0px 3px;
     
     
+  }
+  @media only screen and (min-width: 1200px) {
+    .example {background: pink;}
   }
   a:hover{
       color: #008CBA !important; 
