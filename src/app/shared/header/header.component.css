@@ -73,6 +73,10 @@ body {
   .nav_desktop {
     display: flex;
   }
+  .end_divider {
+    border-right: 1px solid #0FA3B1;
+    height: fit-content;
+  }
 }
 
 @media(max-width:700px) {
