@@ -58,13 +58,61 @@ body {
   transition: margin-left .5s;
   padding: 16px;
 }
-
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .btn:hover {
+   
+    right: 0;
+    background-color: rgb(16, 179, 243);
+    
+  }
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 
 /*@media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }*/
+
+@media(min-width:700px){
+    .hide{
+      display: none;
+      }
+      
+  }
+
+  .buttonc {
+      
+    width: 90%;
+    
+    background-color: #FFFFFF;
+    color:black;
+    text-transform: uppercase;
+    
+    border-radius: 0px 3px 3px 0px;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+    border: 1px solid #FFFFFF;
+    padding: 10px 16px;
+    font-size: 20px;
+
+    
+  }
+  .text2{
+    margin-bottom: 15px;
+    /* font-weight: bold; */
+    font-size: 10px;    
+    letter-spacing: 1px;
+    
+    
+  }
+
 
 @media(min-width:700px) {
   .hide {
