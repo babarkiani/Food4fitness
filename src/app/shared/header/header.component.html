@@ -1,5 +1,6 @@
 <nav class="navbar navbar-expand-sm navbar-light bg-light nav_desktop">
-  <a class="navbar-brand py-2" href="#"><img style="width:75px; height:75px" src="../../../assets/images/logo.png"/></a>
+  <a class="navbar-brand py-2" href="#"><img style="width:75px; height:75px"
+      src="../../../assets/images/logo.png" /></a>
   <ul class="navbar-nav ml-auto">
     <li class="nav-item">
       <a class="nav-link text-capitalize btn_desktop" href="#">Menu</a>
@@ -23,30 +24,35 @@
       <a class="nav-link text-capitalize btn_desktop" href="#">Login</a>
     </li>
     <li class="nav-item pl-3">
-      <a class="nav-link" href="#"><img src="../../../assets/images/cart-icon.svg"/>
-      (0)</a>
+      <a class="nav-link" href="#"><img src="../../../assets/images/cart-icon.svg" />
+        (0)</a>
     </li>
   </ul>
 </nav>
 
 <div class="hide">
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-lg-12">
+      <button id="main" class="openbtn" (click)="openNav()">☰</button>
+      <a href="#"><img style="width:30px; height:30px" src="../../../assets/images/logo.png" /></a>
+      <a id="cart_link_phone" class="float-right pt-3 pr-2" href="#"><span><img src="../../../assets/images/cart-icon.svg" /></span>
+        (0)</a>
+    </div>
+  </div>
+  <div id="mySidebar" class="sidebar">
 
-    <button id="main" class="openbtn"  (click)="openNav()">☰ </button>  
-<div id="mySidebar" class="sidebar">
-  
-  <a><img   src="../../../assets/images/cross.svg"  class="closebtn" (click)="closeNav()"></a>
-  <hr>
-  <a href="#">MENU</a>
-  <hr>
+    <a><img src="../../../assets/images/cross.svg" class="closebtn" (click)="closeNav()"></a>
+    <hr>
+    <a href="#">MENU</a>
+    <hr>
 
-  <div  class=" col-md-3">
+    <div class=" col-md-3">
       <button type="button" class="buttonc " data-toggle="collapse" data-target="#demo8">OUR PLANS</button>
-      <img data-toggle="collapse" data-target="#demo8" style="width:15 px; height: 15px;" src="../../../assets/images/plus.svg">
+      <img data-toggle="collapse" data-target="#demo8" style="width:15 px; height: 15px;"
+        src="../../../assets/images/plus.svg">
       <div id="demo8" class=" collapse ">
-        <ul >
-         
-
-          <a  href="#">Signature Meals</a>
+        <ul>
+          <a href="#">Signature Meals</a>
           <br>
           <a href="#">CUSTOM MEAL BUILDER</a>
           <br>
@@ -58,17 +64,21 @@
         </ul>
       </div>
     </div>
-  <hr>
+    <hr>
 
-  <a href="#">HOW WE OPERATE </a>
-  <hr>
-  <a href="#">CONTACT US</a>
-  <hr>
+    <a href="#">HOW WE OPERATE </a>
+    <hr>
+    <a href="#">CONTACT US</a>
+    <hr>
+
+    <a href="#" class="side_nav_links">MACRO</a>
+    <a href="#" class="side_nav_links">STOCKISTS</a>
+    <a href="#" class="side_nav_links">ABOUT US</a>
+    <a href="#" class="side_nav_links">LOGIN</a>
+  </div>
+
+
+
+
+
 </div>
-
- 
-
-
-   
-</div>
-
