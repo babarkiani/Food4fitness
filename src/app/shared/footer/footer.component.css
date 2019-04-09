@@ -247,14 +247,45 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
 
 @media (max-width:701px) {
   .row-fluid {
-  visibility:hidden;
+ display:none;
   }
  
 
 }
+/*////////*/
+@media(min-width:700px){
+  .button122 {
+      
+    width: 40%;
+    
+    background-color: #0FA3B1;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 0px 3px 3px 0px;
+    
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+    border: 1px solid #0FA3B1;
+    padding: 12px
+
+    
+  }
+  .text112 {
+    width: 30%;
+    float: left;
+    padding: 12px;
+    border: 1px solid #0FA3B1;
+    border-radius: 3px 0px 0px 3px;
+    
+    
+  }
+    
+}
+/*/////////*/
 @media(min-width:700px){
   .row-fluid1 {
-    visibility:hidden;
+    display: none;
     }
     
 }
@@ -285,5 +316,176 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
     padding: 12px
 
     
+  }
+}
+
+
+
+
+
+/* ///////////////////////////////////////////////// */
+
+* {
+  box-sizing: border-box;
+}
+
+.font_class_heading
+{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #dcab00;
+}
+
+.font_class
+{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.color
+{
+  color: #dcab00;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 15%;
+  padding: 0 10px;
+}
+
+.column1 {
+  float: left;
+  width: 7.5%;
+  padding: 0 0px;
+}
+
+.column4 {
+  float: left;
+  width: 30%;
+  padding: 0 10px;
+}
+
+.column6 {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+/*
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+
+
+/* Responsive columns - one column layout (vertical) on small screens */
+/*@media screen and (max-width: 600px) {
+/* 
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .column1{
+    display: none
+    }
+
+  .column4 {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    .column6 {
+      float: left;
+      width: 100%;
+      padding: 0 10px;
+    }
+
+    .column8 {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+ */
+
+
+
+
+
+
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+.col-10 {
+  -ms-flex: 10%; /* IE10 */
+  flex: 10%;
+}
+.col-5 {
+  -ms-flex: 5%; /* IE10 */
+  flex: 5%;
+}
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+.col-30 {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75,
+.col-5,
+.col-10 {
+  padding: 0 16px;
+}
+
+
+
+@media (max-width: 1300px) {
+  .row {
+    flex-direction: column;
+  }
+  .col-10 {
+    margin-bottom: 30px;
+  }
+.about{
+  margin-left: -4px
+}
+  .col-50
+  {
+      -ms-flex: 50%; /* IE10 */
+      flex: 50%;
+
   }
 }
