@@ -9,20 +9,23 @@ export class HeaderComponent implements OnInit {
   isCollapsed = false;
   constructor() { }
 @ViewChild('mySidebar')side:ElementRef;
-@ViewChild('btt')main:ElementRef;
+@ViewChild('main')main1:ElementRef;
   ngOnInit() {
+
+   
+    
   }
 
 openNav() {
   document.getElementById("mySidebar").style.width = "250px";
-  // document.getElementById("main").style.marginLeft = "250px";
-  this.main.nativeElement.show=false;
+  document.getElementById("main").style.marginLeft = "-300px";
+ 
 }
 
 closeNav() {
   document.getElementById("mySidebar").style.width = "0";
-  // document.getElementById("main").style.marginLeft= "0";
-  this.main.nativeElement.show=true;
+  document.getElementById("main").style.marginLeft= "0";
+
 }
 
 

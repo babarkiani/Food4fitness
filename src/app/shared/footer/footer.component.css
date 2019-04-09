@@ -125,7 +125,7 @@ and (-webkit-min-device-pixel-ratio: 1.5) {
     cursor: pointer;
     transition: all 0.25s ease-out;
     border: 1px solid #FFFFFF;
-    padding: 12px
+    padding: 10px
 
     
   }

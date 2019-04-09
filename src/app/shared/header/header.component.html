@@ -65,28 +65,27 @@
   </mat-sidenav-container>
 </div> -->
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
-</head>
-<body>
+<div class="hide">
 
+    <button id="main" class="openbtn"  (click)="openNav()">☰ Menu</button>  
 <div id="mySidebar" class="sidebar">
-  <a  href="javascript:void(0)" class="closebtn" (click)="closeNav()">×</a>
+  
+  <a><img   src="../../../assets/cross.svg"  class="closebtn" (click)="closeNav()"></a>
+  <hr>
   <a href="#">About</a>
+  <hr>
   <a href="#">Services</a>
+  <hr>
   <a href="#">Clients</a>
+  <hr>
   <a href="#">Contact</a>
+  <hr>
 </div>
 
-  <button id="main"class="openbtn" (click)="openNav()">☰ Toggle Sidebar</button>  
-  <h2>Collapsed Sidebar</h2>
-  <p>Click on the hamburger menu/bar icon to open the sidebar, and push this content to the right.</p>
-
+ 
 
 
    
-</body>
-</html> 
+</div>
+
