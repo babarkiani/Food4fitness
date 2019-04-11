@@ -27,14 +27,14 @@ body {
 .sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: x-small;
   color: black;
   display: block;
   transition: 0.3s;
 }
 
 .sidebar a:hover {
-  color: #f1f1f1;
+  color: #0FA3B1;
 }
 
 .closebtn {
@@ -58,20 +58,21 @@ body {
   transition: margin-left .5s;
   padding: 16px;
 }
+
 .btn {
-    border: none;
-    outline: none;
-    padding: 10px 16px;
-    background-color: #f1f1f1;
-    cursor: pointer;
-    font-size: 18px;
-  }
-  .btn:hover {
-   
-    right: 0;
-    background-color: rgb(16, 179, 243);
-    
-  }
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  right: 0;
+  background-color: rgb(16, 179, 243);
+}
+
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 
 /*@media screen and (max-height: 450px) {
@@ -79,40 +80,36 @@ body {
   .sidebar a {font-size: 18px;}
 }*/
 
-@media(min-width:700px){
-    .hide{
-      display: none;
-      }
-      
+@media(min-width:700px) {
+  .hide {
+    display: none;
   }
+}
 
-  .buttonc {
-      
-    width: 90%;
-    
-    background-color: #FFFFFF;
-    color:black;
-    text-transform: uppercase;
-    
-    border-radius: 0px 3px 3px 0px;
-    text-align: left;
-    cursor: pointer;
-    transition: all 0.25s ease-out;
-    border: 1px solid #FFFFFF;
-    padding: 10px 16px;
-    font-size: 20px;
+.buttonc {
+  width: 90%;
+  background-color: #FFFFFF;
+  color: black;
+  text-transform: uppercase;
+  border-radius: 0px 3px 3px 0px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.25s ease-out;
+  border: 1px solid #FFFFFF;
+  padding: 10px 16px;
+  font-size: x-small;
+}
 
-    
-  }
-  .text2{
-    margin-bottom: 15px;
-    /* font-weight: bold; */
-    font-size: 10px;    
-    letter-spacing: 1px;
-    
-    
-  }
+.buttonc:hover {
+  color: #0FA3B1;
+}
 
+.text2 {
+  margin-bottom: 15px;
+  /* font-weight: bold; */
+  font-size: 10px;
+  letter-spacing: 1px;
+}
 
 @media(min-width:700px) {
   .hide {
@@ -120,6 +117,10 @@ body {
   }
   .nav_desktop {
     display: flex;
+    background-color: white !important;
+  }
+  a.btn_desktop:hover {
+    color: #0FA3B1 !important;
   }
   .end_divider {
     border-right: 1px solid #0FA3B1;
@@ -130,6 +131,18 @@ body {
 @media(max-width:700px) {
   .hide {
     display: block;
+  }
+  .side_nav_links {
+    color: #0FA3B1 !important;
+  }
+  a#cart_link_phone {
+    -webkit-transition: display .5s;
+    /* Safari */
+    transition: display .5s;
+  }
+  .icon-dash {
+    display: inline-block;
+    vertical-align: middle;
   }
   .nav_desktop {
     display: none;
