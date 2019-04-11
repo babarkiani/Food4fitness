@@ -11,6 +11,7 @@ import { HomeComponent } from './pages/home/home.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule, MatIconModule, MatToolbarModule, MatSidenavModule, MatListModule } from '@angular/material';
+import { PopupComponent } from './shared/popup/popup.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { MatButtonModule, MatIconModule, MatToolbarModule, MatSidenavModule, Mat
     HeaderComponent,
     FooterComponent,
     HomeComponent,
+    PopupComponent,
     
   ],
   imports: [
