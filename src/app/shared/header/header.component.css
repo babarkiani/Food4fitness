@@ -22,6 +22,8 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 50px;
+  display: none;
+  position: absolute;
 }
 
 .sidebar a {

@@ -19,6 +19,7 @@ export class HeaderComponent implements OnInit {
 
 openNav() {
   document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("mySidebar").style.display = "block";
   document.getElementById("main").style.marginLeft = "-300px";
   document.getElementById("cart_link_phone").style.display = "none";
  
@@ -26,6 +27,7 @@ openNav() {
 
 closeNav() {
   document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("mySidebar").style.display = "none";
   document.getElementById("main").style.marginLeft= "0";
   document.getElementById("cart_link_phone").style.display = "flex";
 
