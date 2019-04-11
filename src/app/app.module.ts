@@ -12,13 +12,12 @@ import {SigMealComponent} from './pages/our-plans/sig-meal/sig-meal.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule, MatIconModule, MatToolbarModule, MatSidenavModule, MatListModule } from '@angular/material';
-<<<<<<< HEAD
+
 import { Page1SigComponent } from './pages/our-plans/sig-meal/page1-sig/page1-sig.component';
 import { Page2SigComponent } from './pages/our-plans/sig-meal/page2-sig/page2-sig.component';
 import { Page3SigComponent } from './pages/our-plans/sig-meal/page3-sig/page3-sig.component';
-=======
+
 import { PopupComponent } from './shared/popup/popup.component';
->>>>>>> e7c32d8cbfa0da36d4dd239b493885dcb0042000
 
 @NgModule({
   declarations: [

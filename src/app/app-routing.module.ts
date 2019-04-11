@@ -5,6 +5,7 @@ import { SigMealComponent } from './pages/our-plans/sig-meal/sig-meal.component'
 import { Page1SigComponent } from './pages/our-plans/sig-meal/page1-sig/page1-sig.component';
 import { Page2SigComponent } from './pages/our-plans/sig-meal/page2-sig/page2-sig.component';
 import { Page3SigComponent } from './pages/our-plans/sig-meal/page3-sig/page3-sig.component';
+import { PopupComponent } from './shared/popup/popup.component';
 
 const routes: Routes = [
   {
@@ -16,7 +17,8 @@ const routes: Routes = [
           { path: 'page-3', component: Page3SigComponent },
         ]
       }]
-  }
+  },
+  { path: 'popup', component: PopupComponent }
 ];
 
 @NgModule({
