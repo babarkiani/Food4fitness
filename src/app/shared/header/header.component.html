@@ -9,7 +9,7 @@
       <a class="nav-link text-capitalize btn_desktop dropdown-toggle" data-toggle="dropdown"
         data-target="our_plans_coll" href="#">Our Plans</a>
       <div id="our_plans_coll" class="dropdown-menu">
-        <a href="#" class="dropdown-item">Signature Meals</a>
+        <a routerLink="/ourplans/sigmeal" routerLinkActive="active" class="dropdown-item">Signature Meals</a>
         <a href="#" class="dropdown-item">CUSTOM MEAL BUILDER</a>
         <a href="#" class="dropdown-item">BULK PROTEIN</a>
         <a href="#" class="dropdown-item">HEALTHY SNACKS & TREATS</a>
@@ -171,7 +171,7 @@
         src="../../../assets/images/plus.svg">
       <div id="demo8" class=" collapse ">
         <ul>
-          <a href="#">Signature Meals</a>
+          <a [routerLink]="[{ outlets: { our_plans_outlet: ['sigmeal'] } }]">Signature Meals</a>
           <br>
           <a href="#">CUSTOM MEAL BUILDER</a>
           <br>
