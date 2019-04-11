@@ -1,0 +1,77 @@
+.addside{
+    color: #EC9940
+}
+.p{
+    color: #0FA3B1
+}
+.f{
+    color: #5BC289
+}
+.c{
+    color: #FDCF57
+}
+.s{
+    color: #DD7AB9
+}
+.e{
+    color: #767F85
+}
+.fl{
+    color: #545A5F
+}
+.pad{
+    padding: 0%;
+}
+.btn1{
+    width: 80px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    color: #767F85;
+    margin-left: 10px!important;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .add{
+    width: 150px;
+    padding: 12px 20px;
+    
+  }
+
+  @media screen and (max-width: 1024px) {
+    .btn1{
+        width: 60px;
+        padding: 12px 20px;
+        margin: 8px 0;
+
+        display: inline-block;
+        border: 1px solid #ccc;
+        color: #767F85;
+        margin-left: -20px!important;
+        display: inline-block;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+}
+
+@media screen and (max-width: 768px) {
+    .btn1{
+        width: 80px;
+        padding: 12px 20px;
+        margin: 8px 0;
+
+        display: inline-block;
+        border: 1px solid #ccc;
+        color: #767F85;
+        margin-left: 10px!important;
+        display: inline-block;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      .pd{
+          box-flex:200px;
+      }
+}
