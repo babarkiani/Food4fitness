@@ -24,6 +24,9 @@ import { Pagec2Component } from './pages/our-plans/custom/pagec2/pagec2.componen
 import { Page4SigComponent } from './pages/our-plans/sig-meal/page4-sig/page4-sig.component';
 import { Pagec3Component } from './pages/our-plans/custom/pagec3/pagec3.component';
 import { Pagec4Component } from './pages/our-plans/custom/pagec4/pagec4.component';
+import { BulkComponent } from './pages/our-plans/bulk/bulk.component';
+import{Pageb1Component}from'./pages/our-plans/bulk/pageb1/pageb1.component'
+
 
 @NgModule({
   declarations: [
@@ -41,7 +44,10 @@ import { Pagec4Component } from './pages/our-plans/custom/pagec4/pagec4.componen
     Pagec2Component,
     Page4SigComponent,
     Pagec3Component,
-    Pagec4Component
+    Pagec4Component,
+    BulkComponent,
+    Pageb1Component
+
     
   ],
   imports: [
