@@ -1,425 +1,289 @@
+
 <div class="row pt-5">
     <div class="col-lg-8 col-md-8">
       <div class="stepwizard">
         <div class="stepwizard-row setup-panel">
           <div class="stepwizard-step">
-            <button type="button" class="btn btn-circle btn-circle-a">
+            <button style="margin-left:-30px" type="button" class="btn btn-circle btn-circle-a">
               1
             </button>
-            <p>Select a plan</p>
-          </div>
-          <div class="stepwizard-step">
-            <button type="button" class="btn btn-circle btn-circle-a">
-              2
-            </button>
-            <p>Set Location</p>
+            <p>Select Location</p>
           </div>
           <div class="stepwizard-step">
             <button type="button" class="btn btn-circle btn-circle-n">
-              3
+              2
             </button>
             <p>Meal Selection</p>
           </div>
           <div class="stepwizard-step">
             <button type="button" class="btn btn-circle btn-circle-d">
-              4
+              3
             </button>
             <p>Delivery Details</p>
           </div>
           <div class="stepwizard-step">
-            <button type="button" class="btn btn-circle btn-circle-d">
-              5
+            <button style="margin-left:15px" type="button" class="btn btn-circle btn-circle-d">
+              4
             </button>
             <p>Payment</p>
           </div>
         </div>
       </div>
       <div class="row pt-3">
-        <div>
-          <h3 style="color: #ec9940;">Select number of meals</h3>
-          <div class="row py-3">
-            <div class="col-lg-7 col-md-7 col-sm-7">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <h3 style="color: #ec9940;">Build your custom meal</h3>
+          <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="form-group">
+                  <p>
+                    A minimum order of 6 meals is required for a custom meal order. This can be a combination of meals,<br>
+                    and doesn't need to be all of one type.
+                  </p>
+                
+                </div>
+              </div>
+            </div>
+        
+            <div class="row">
+                <div class="col-md-8">
+           <h6><label style="color:grey">Delivery</label></h6> <br>
+           <div class="deliv-form-page-2">
+              <div class="radio-item px-2">
+                <input type="radio" id="ritema" name="ritem" value="ropt1">
+                <label for="ritema">14th-15th Oct</label>
+              </div>
+              <div class="radio-item px-2">
+                <input type="radio" id="ritemb" name="ritem" value="ropt2">
+                <label for="ritemb">17th-18th Oct</label>
+              </div>
+              <div class="radio-item px-2">
+                <input type="radio" id="ritemc" name="ritem" value="ropt2">
+                <label for="ritemc">Pickup</label>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+              <h6><label style="color:grey">Quantity</label></h6><br>
+              
+                  <input style="width:100%" maxlength="100" type="number" required="required" class="form-control"
+                    placeholder="0" />
+    
+             </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-12">
+              <h6><label style="color:grey">Protein</label></h6>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-8">
               <select class="form-control">
-                <option>7 Meal Pack ($9.75 per meal)</option>
-              </select>
+                  <option value="Hake Fillet" selected>Hake Fillet</option>
+                  <option value="saab">Saab</option>
+                  <option value="vw">VW</option>
+                  <option value="audi" >Audi</option>
+                </select>
             </div>
-            <div class="col-lg-1 col-md-1 col-sm-1 pt-2">
-              <p class="text-center"><b>OR</b></p>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4">
-              <input type="button" class="btn btn-page-2-submit form-control" value="RANDOM MEAL SELECTION" />
+            
+            <div class="col-md-4">
+         
+                <select class="form-control">
+                    <option value="volvo" selected>25 gram</option>
+                    <option value="saab">15 gram</option>
+                    <option value="vw">10 gram</option>
+                    <option value="audi" >5 gram</option>
+                  </select>
+
             </div>
           </div>
-          <div class="row py-2">
-            <div class="col-lg-12 col-md-12 col-sm-12">
-              <h3 style="color: #ec9940;">Select meals to be delivered</h3>
-              <p class="py-3">For delivered meals <b>Day 1</b> is Sunday and <b>Day 2</b> is Wednesday. For pickups it
-                depends on
-                location. Please <a href="" class="click-here-tag">click here</a> for details</p>
+
+          <br>
+          <div class="row">
+              <div class="col-md-12">
+                <h6><label style="color:grey">Carbohydrate</label></h6>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-8">
+                    <select class="form-control">
+                        <option value="volvo" selected>Diced Sweet Potato Block</option>
+                        <option value="saab">15 gram</option>
+                        <option value="vw">10 gram</option>
+                        <option value="audi" >5 gram</option>
+                      </select>
+              </div>
+              
+              <div class="col-md-4">
+           
+                  <select class="form-control">
+                      <option value="volvo" selected>25 gram</option>
+                      <option value="saab">15 gram</option>
+                      <option value="vw">10 gram</option>
+                      <option value="audi" >5 gram</option>
+                    </select>
+  
+              </div>
             </div>
-          </div>
-          <div class="row py-2">
+          
+            <br>
+            <div class="row">
+                <div class="col-md-12">
+                  <h6><label style="color:grey">Sides</label></h6>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-8">
+                  <select class="form-control">
+                      <option value="volvo"selected>Asparagus(+$2.95)</option>
+                      <option value="saab">Saab</option>
+                      <option value="vw">VW</option>
+                      <option value="audi" >Audi</option>
+                    </select>
+                </div>
+                
+                <div class="col-md-4">
+             
+                    <select class="form-control">
+                        <option value="volvo" >25 gram</option>
+                        <option value="saab" selected>15 gram</option>
+                        <option value="vw">10 gram</option>
+                        <option value="audi" >5 gram</option>
+                      </select>
+    
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                  <div class="col-md-8">
+                  <select style="color:lightslategrey"  class="form-control">
+                      <option value="volvo"selected>Select sides</option>
+                      <option value="saab">Saab</option>
+                      <option value="vw">VW</option>
+                      <option value="audi" >Audi</option>
+                    </select>
+                </div>
+                
+                <div class="col-md-4">
+             
+                    <select style="color:lightslategrey"  class="form-control">
+                        <option value="volvo" >25 gram</option>
+                        <option value="saab" style="color:lightslategrey" selected>Select portion size </option>
+                        <option value="vw">10 gram</option>
+                        <option value="audi" >5 gram</option>
+                      </select>
+    
+                </div>
+              </div>
+                <br>
+                <a style="color:rgb(18, 190, 233)">+ Add extra sides</a>
+                <br>
+          <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
-              <p><b>Delivery Day</b></p>
-              <div class="row pt-2">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                  <div class="deliv-form-page-2">
-                    <div class="radio-item px-2">
-                      <input type="radio" id="ritema" name="ritem" value="ropt1">
-                      <label for="ritema">14th-15th Oct</label>
-                    </div>
-                    <div class="radio-item px-2">
-                      <input type="radio" id="ritemb" name="ritem" value="ropt2">
-                      <label for="ritemb">17th-18th Oct</label>
-                    </div>
-                    <div class="radio-item px-2">
-                      <input type="radio" id="ritemc" name="ritem" value="ropt2">
-                      <label for="ritemc">Pickup</label>
-                    </div>
+              <div class="form-group">
+                <div class="row pt-3">
+                  <div class="col-lg-5 col-md-5 col-sm-5">
+                    <input maxlength="100" type="text" required="required" class="form-control"
+                      placeholder="&#xf041; Your postcode*" style="font-family:Arial, FontAwesome" />
+                  </div>
+                  <div class="col-lg-5 col-md-5 col-sm-5">
+                    <input maxlength="100" type="text" required="required" class="form-control"
+                      placeholder="Enter your email*" />
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-2">
+                    <input type="submit" class=" button11 form-control btn btn-page-1-submit" value="Next" />
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <h5 class="pt-2" style="color: #ec9940;">Filter meals options by:</h5>
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-md-4">
-      <div class="card selected-item-row mb-4">
-        <img src="../../../../../assets/images/ourplan-img2.png" style="width: 100%; height: 100%" />
-        <div class="row pt-3 pb-1">
-          <div class="col-lg-6">
-            <p class="text-center"><b>100g</b> protein</p>
-          </div>
-          <div class="col-lg-6">
-            <p class="text-center"><b>100g</b> sides</p>
-          </div>
-        </div>
-        <div class="card bg-white">
-          <div class="row pt-3 row-bottom-info">
-            <div class="col-lg-12 col-md-12">
-              <p class="text-center"><mark class="dark-highlight text-uppercase px-2">weightloss</mark></p>
-              <p class="text-center"><b>200g serving</b></p>
-              <p class="text-center">These meals are light, small sized meals <br /> primarily designed around weightloss
-                <br />and
-                maintenance.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="change-sel" href="#"><i class="fa fa-pencil change-sel-pencil"></i> Change Selection</a>
-    </div>
-  </div>
-  <div class="row pt-3">
-    <div class="col-lg-8 col-sm-8 col-md-8">
-      <div class="row">
-        <div class="col-lg-8 col-sm-8 col-md-8">
-          <h6>Select protein of choice</h6>
-          <div class="row pt-3">
-            <div class="col-lg-4 col-sm-4 col-md-4">
-              <div class="custom-checkbox">
-                <input type="checkbox" id="test1" checked="checked" />
-                <label for="test1">Beef</label>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-4 col-md-4">
-              <div class="custom-checkbox">
-                <input type="checkbox" id="test2" checked="checked" />
-                <label for="test2">Chicken</label>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-4 col-md-4">
-              <div class="custom-checkbox">
-                <input type="checkbox" id="test3" checked="checked" />
-                <label for="test3">Fish</label>
-              </div>
-            </div>
-          </div>
-          <div class="row pt-3">
-            <div class="col-lg-4 col-sm-4 col-md-4">
-              <div class="custom-checkbox">
-                <input type="checkbox" id="test4" checked="checked" />
-                <label for="test4">Pork</label>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-4 col-md-4">
-              <div class="custom-checkbox">
-                <input type="checkbox" id="test5" checked="checked" />
-                <label for="test5">Lamb</label>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-4 col-md-4">
-              <div class="custom-checkbox">
-                <input type="checkbox" id="test6" checked="checked" />
-                <label for="test6">Pork</label>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-4 col-md-4">
-          <h6>Dietary Requirements</h6>
-          <div class="row">
-            <div class="col-lg-12 col-sm-12 col-md-12">
-              <div class="radio-item px-2">
-                <input type="radio" id="ritemd" name="ritem" value="ropt1">
-                <label for="ritemd">Dairy Free</label>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-12 col-sm-12 col-md-12">
-              <div class="radio-item px-2">
-                <input type="radio" id="riteme" name="ritem" value="ropt1">
-                <label for="riteme">Gluten Free</label>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row py-4">
-    <div class="col-lg-8 col-sm-8 col-md-8">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="card selected-item-row mb-4">
-            <img src="../../../../../assets/images/ourplan-img2.png" style="width: 100%; height: 100%" />
-            <div class="card bg-white" style="min-height: 180px;">
-              <div class="row pt-3 row-bottom-info">
-                <div class="col-lg-12 col-md-12">
-                  <p class="pl-2"><b>Oven Roasted Chicken Breast</b><br />with Satay Sause</p>
+    <div  class="col-lg-4 col-sm-4 col-md-4">
+   
+       
+          <div class="card custom-card">
+            <div class="card-body">
+              <div class="row py-3">
+                <div class="col-lg-12 col-sm-12 col-md-12">
+                  <h3>Order Summary</h3>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="card selected-item-row mb-4">
-            <img src="../../../../../assets/images/ourplan-img2.png" style="width: 100%; height: 100%" />
-            <div class="card bg-white" style="min-height: 180px;">
-              <div class="row pt-3 row-bottom-info">
-                <div class="col-lg-12 col-md-12">
-                  <p class="pl-2"><b>Oven Roasted Chicken Breast</b><br />with Satay Sause</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="card selected-item-row mb-4">
-            <img src="../../../../../assets/images/ourplan-img2.png" style="width: 100%; height: 100%" />
-            <div class="card bg-white" style="min-height: 180px;">
-              <div class="row pt-3 row-bottom-info">
-                <div class="col-lg-12 col-md-12">
-                  <p class="pl-2"><b>Oven Roasted Chicken Breast</b><br />with Satay Sause</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="card selected-item-row mb-4">
-            <img src="../../../../../assets/images/ourplan-img2.png" style="width: 100%; height: 100%" />
-            <div class="card bg-white" style="min-height: 180px;">
-              <div class="row pt-3 row-bottom-info">
-                <div class="col-lg-12 col-md-12">
-                  <p class="pl-2"><b>Oven Roasted Chicken Breast</b><br />with Satay Sause</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="card selected-item-row mb-4">
-            <img src="../../../../../assets/images/ourplan-img2.png" style="width: 100%; height: 100%" />
-            <div class="card bg-white" style="min-height: 180px;">
-              <div class="row pt-3 row-bottom-info">
-                <div class="col-lg-12 col-md-12">
-                  <p class="pl-2"><b>Oven Roasted Chicken Breast</b><br />with Satay Sause</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="card selected-item-row mb-4">
-            <img src="../../../../../assets/images/ourplan-img2.png" style="width: 100%; height: 100%" />
-            <div class="card bg-white" style="min-height: 180px;">
-              <div class="row pt-3 row-bottom-info">
-                <div class="col-lg-12 col-md-12">
-                  <p class="pl-2"><b>Oven Roasted Chicken Breast</b><br />with Satay Sause</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-4 col-md-4">
-      <div class="card custom-card">
-        <div class="card-body">
-          <div class="row py-3">
-            <div class="col-lg-12 col-sm-12 col-md-12">
-              <h3>Order Summary</h3>
-            </div>
-          </div>
-          <div class="row pt-3 pb-1">
-            <div class="col-lg-12 col-sm-12 col-md-12">
-              <p><b>6/7 meals selected</b></p>
-              <div class="progress" style="height:5px">
-                <div class="progress-bar" style="width:60%;height:5px;color: #0fa3b1;"></div>
-              </div>
-              <p class="py-4" style="color: #ec9940"><b>Delivery Day: 1</b> <span style="color: grey;"> (14 Oct - 15
-                  Oct)</span> </p>
-              <div class="row">
-                <div class="col-lg-9 col-sm-9 col-md-9">
-                  <p><b>Selected Meals</b></p>
+              <div class="row pt-3 pb-1">
+                <div class="col-lg-12 col-sm-12 col-md-12">
+                 
+                 
+                  <p class="py-4" ><b style="color: #ec9940">Delivery Day: 1</b></p>
+                  <div class="row">
+                    <div class="col-lg-9 col-sm-9 col-md-9">
+                     
+                      <div class="row py-1">
+                        <div class="col-lg-12 col-sm-12 col-md-12">
+                          <uL class="reciept-list">
+                            <li><i class="fa fa-chevron-right caret-reciept"></i><b>Custom Meal#1</b>
+                              <ul class="nested-reciept-list">
+                                <li>Brown Rice & Seasonal Mix Veg</li>
+                                <li>Green Beans & Peas,Corn Capsicum</li>
+                              </ul>
+                            </li>
+                          </uL>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-3 col-md-3">
+                      <p><b>Qty: 0</b></p>
+                     
+                    </div>
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                      <div class="col-md-12">
+                         <label style="margin-left: 14px; color:grey">Selected meals will appear here</label>
+                      </div>
+                    </div>
+                  </div>
+                 
+                  
+              
+                 
                   <div class="row py-1">
-                    <div class="col-lg-12 col-sm-12 col-md-12">
-                      <uL class="reciept-list">
-                        <li><i class="fa fa-chevron-right caret-reciept"></i><b>Over Roasted Chiken Breast</b><br>with
-                          Satay Sauce
-                          <ul class="nested-reciept-list">
-                            <li>Brown Rice & Seasonal Mix Veg</li>
-                            <li>Green Beans & Peas,Corn Capsicum</li>
-                          </ul>
-                        </li>
-                      </uL>
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                      <div class="dropdown-divider"></div>
                     </div>
                   </div>
+                 
+                  
+                 
+                  
                 </div>
-                <div class="col-lg-3 col-sm-3 col-md-3">
-                  <p><b>Qty</b></p>
-                  <div class="row">
-                    <div class="col-lg-12 col-sm-12 col-md-12">
-                      <p><b>2</b></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row py-1">
-                <div class="col-lg-9 col-sm-9 col-md-9">
-                  <div class="row">
-                    <div class="col-lg-12 col-sm-12 col-md-12">
-                      <uL class="reciept-list">
-                        <li><i class="fa fa-chevron-right caret-reciept"></i><b>Over Roasted Chiken Breast</b><br>with
-                          Satay Sauce
-                          <ul class="nested-reciept-list">
-                            <li>Brown Rice & Seasonal Mix Veg</li>
-                            <li>Green Beans & Peas,Corn Capsicum</li>
-                          </ul>
-                        </li>
-                      </uL>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-sm-3 col-md-3">
-                  <div class="row">
-                    <div class="col-lg-12 col-sm-12 col-md-12">
-                      <p><b>3</b></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row py-1">
-                <div class="col-lg-9 col-sm-9 col-md-9">
-                  <div class="row">
-                    <div class="col-lg-12 col-sm-12 col-md-12">
-                      <uL class="reciept-list">
-                        <li><i class="fa fa-chevron-right caret-reciept"></i><b>Over Roasted Chiken Breast</b><br>with
-                          Satay Sauce
-                          <ul class="nested-reciept-list">
-                            <li>Brown Rice & Seasonal Mix Veg</li>
-                            <li>Green Beans & Peas,Corn Capsicum</li>
-                          </ul>
-                        </li>
-                      </uL>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-3 col-sm-3 col-md-3">
-                  <div class="row">
-                    <div class="col-lg-12 col-sm-12 col-md-12">
-                      <p><b>1</b></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row py-2">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                  <a class="change-sel" href="#"><i class="fa fa-pencil change-sel-pencil"></i> Change Selection</a>
-                </div>
-              </div>
-              <div class="row py-1">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                  <div class="dropdown-divider"></div>
-                </div>
+                
               </div>
               <div class="row">
-                <div class="col-lg-6 col-sm-6 col-md-6">
-                  <p>*Added extras</p>
+                  <div class=" col-8">
+                    <p><b>Total</b></p>
+                  </div>
+                  <div class="col-4">
+                    <p class="text-right"><b>$0</b></p>
+                  </div>
                 </div>
-                <div class="col-lg-6 col-sm-6 col-md-6">
-                  <p class="text-right">$11.85</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6 col-sm-6 col-md-6">
-                  <p><b>Total</b></p>
-                </div>
-                <div class="col-lg-6 col-sm-6 col-md-6">
-                  <p class="text-right"><b>$90.70</b></p>
-                </div>
-              </div>
-              <div class="row py-2">
-                <div class="col-lg-12 col-sm-12 col-md-12">
-                  <a href="#" class="change-sel" href="#">Add Coupon</a>
-                </div>
-              </div>
-              <div class="row py-2">
-                <div class="col-lg-12 col-sm-12 col-md-12">
-                  <a name="" id="" class="btn btn-page-2-submit form-control" href="#" role="button">Add to cart</a>
-                </div>
-              </div>
+                <div class="row ">
+                    <div class="  col-12">
+                      <a name="" style="width: 100%"id=""  class="button11  btn btn-page-2-submit form-control" href="#" role="button">Check Out</a>
+                    </div>
+                  </div>  
             </div>
+          
+          
           </div>
-        </div>
-      </div>
-    </div>
+          <br>
+          <br>
+          <p style=" color:grey">In most locations delivery will be on Sunday for Day 1.
+          When you select the delivery location on checkout exact
+          details will be provided. </p>
+          <br>
+       
+          <b style=" color:grey">* Added extras</b>
+    
+  
   </div>
-  <div class="row pt-5">
-    <div class="col-lg-8 col-sm-8 col-md-8">
-      <h5 class="py-4" style="color:#ec9940;">Add a healthy snack</h5>
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="card selected-item-row mb-4">
-            <img src="../../../../../assets/images/ourplan-img2.png" style="width: 100%; height: 100%" />
-            <div class="card bg-white" style="min-height: 180px;">
-              <div class="row pt-3 row-bottom-info">
-                <div class="col-lg-12 col-md-12">
-                  <p class="pl-2"><b>Oven Roasted Chicken Breast</b><br />with Satay Sause</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-6">
-          <div class="card selected-item-row mb-4">
-            <img src="../../../../../assets/images/ourplan-img2.png" style="width: 100%; height: 100%" />
-            <div class="card bg-white" style="min-height: 180px;">
-              <div class="row pt-3 row-bottom-info">
-                <div class="col-lg-12 col-md-12">
-                  <p class="pl-2"><b>Oven Roasted Chicken Breast</b><br />with Satay Sause</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  

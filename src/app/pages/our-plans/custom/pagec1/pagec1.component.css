@@ -396,5 +396,16 @@ ul.reciept-list li ul {
     display: block;
 }
 .button11:hover{
-    background-color: #47b1e2;
+    background-color: #41b6ec;
    }
+
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    left: 10%;
+    position: absolute;
+    content: "  ";
+    width: 85%;
+    height: 1px;
+    background-color: #ccc;
+}
