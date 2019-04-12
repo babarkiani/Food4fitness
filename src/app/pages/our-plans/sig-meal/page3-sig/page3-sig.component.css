@@ -1,0 +1,246 @@
+.stepwizard {
+    display: table;
+    width: 100%;
+    position: relative;
+}
+
+.stepwizard-row {
+    display: table-row;
+}
+
+.stepwizard-step p {
+    margin-top: 10px;
+}
+
+.stepwizard-horizontal {
+    display: inline-block;
+    width: 100px;
+}
+
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    left: 10%;
+    position: absolute;
+    content: " ";
+    width: 85%;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    display: inline-block;
+}
+
+.btn-circle-d {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+    background-color: white !important;
+    border-color: grey !important;
+    color: grey;
+}
+
+.btn-circle-a {
+    background-color: #0fa3b1 !important;
+    border-color: #0fa3b1 !important;
+    color: white !important;
+}
+
+.btn-circle-n {
+    background-color: white !important;
+    border-color: #0fa3b1 !important;
+    color: #0fa3b1 !important;
+}
+
+i.change-sel-pencil {
+    color: #0fa3b1 !important;
+}
+
+a.change-sel {
+    color: #0fa3b1 !important;
+}
+
+.selected-item-row {
+    background-color: #0fa3b1;
+    color: white;
+    box-shadow: -3px 3px 5px 0px #888888;
+}
+
+/* Remove default bullets */
+
+ul.reciept-list {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+ul.reciept-list li ul {
+    list-style-type: none;
+}
+
+/* Remove margins and padding from the parent ul */
+
+.reciept-list {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the caret/arrow */
+
+.caret-reciept {
+    cursor: pointer;
+    user-select: none;
+    /* Prevent text selection */
+    padding-right: 5px;
+}
+
+.btn-custom-add img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Create the caret/arrow with a unicode, and style it 
+
+.caret-reciept::before {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+}*/
+
+/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+
+.caret-reciept-down {
+    transform: rotate(90deg);
+}
+
+/* Hide the nested list */
+
+.nested-reciept-list {
+    padding: 10px;
+    margin: 5px;
+    display: none;
+    border-left: 2px solid #d9d8df;
+    font-size: 13px;
+}
+
+/* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+
+.active-reciept-list {
+    display: block;
+}
+
+.btn-page-3-submit {
+    background-color: #0fa3b1;
+    border-color: #0fa3b1;
+    color: white;
+}
+
+.info-text-custom {
+    font-size: 14px;
+    color: #888888;
+}
+
+/* Base for label styling */
+
+.custom-checkbox [type="checkbox"]:not(:checked), .custom-checkbox [type="checkbox"]:checked {
+    position: absolute;
+    left: -9999px;
+}
+
+.custom-checkbox [type="checkbox"]:not(:checked)+label, .custom-checkbox [type="checkbox"]:checked+label {
+    position: relative;
+    padding-left: 1.95em;
+    cursor: pointer;
+}
+
+/* checkbox aspect */
+
+.custom-checkbox [type="checkbox"]:not(:checked)+label:before, .custom-checkbox [type="checkbox"]:checked+label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1.25em;
+    height: 1.25em;
+    border: 2px solid #0fa3b1;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .1);
+}
+
+/* checked mark aspect */
+
+.custom-checkbox [type="checkbox"]:not(:checked)+label:after, .custom-checkbox [type="checkbox"]:checked+label:after {
+    content: '\2713\0020';
+    position: absolute;
+    top: .15em;
+    left: .22em;
+    font-size: 1.3em;
+    line-height: 0.8;
+    color: #0fa3b1;
+    transition: all .2s;
+    font-family: 'Lucida Sans Unicode', 'Arial Unicode MS', Arial;
+}
+
+/* checked mark aspect changes */
+
+.custom-checkbox [type="checkbox"]:not(:checked)+label:after {
+    opacity: 0;
+    transform: scale(0);
+}
+
+.custom-checkbox [type="checkbox"]:checked+label:after {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* disabled checkbox */
+
+.custom-checkbox [type="checkbox"]:disabled:not(:checked)+label:before, .custom-checkbox [type="checkbox"]:disabled:checked+label:before {
+    box-shadow: none;
+    border-color: #bbb;
+    background-color: #ddd;
+}
+
+.custom-checkbox [type="checkbox"]:disabled:checked+label:after {
+    color: #999;
+}
+
+.custom-checkbox [type="checkbox"]:disabled+label {
+    color: #aaa;
+}
+
+/* accessibility */
+
+/*.custom-checkbox [type="checkbox"]:checked:focus+label:before, .custom-checkbox [type="checkbox"]:not(:checked):focus+label:before {
+    border: 2px dotted blue;
+}*/
+
+/* hover style just for information */
+
+.custom-checkbox label:hover:before {
+    border: 2px solid #0fa3b1!important;
+}

@@ -10,6 +10,15 @@ export class Page3SigComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    var toggler = document.getElementsByClassName("caret-reciept");
+    var i;
+
+    for (i = 0; i < toggler.length; i++) {
+      toggler[i].addEventListener("click", function () {
+        this.parentElement.querySelector(".nested-reciept-list").classList.toggle("active-reciept-list");
+        this.classList.toggle("caret-reciept-down");
+      });
+    }
   }
 
 }
