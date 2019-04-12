@@ -9,6 +9,7 @@ import { PopupComponent } from './shared/popup/popup.component';
 import { CustomComponent } from './pages/our-plans/custom/custom.component';
 import { Pagec1Component } from './pages/our-plans/custom/pagec1/pagec1.component';
 import { Pagec2Component } from './pages/our-plans/custom/pagec2/pagec2.component';
+import { Page4SigComponent } from './pages/our-plans/sig-meal/page4-sig/page4-sig.component';
 
 const routes: Routes = [
   {
@@ -18,6 +19,7 @@ const routes: Routes = [
           { path: 'page-1', component: Page1SigComponent },
           { path: 'page-2', component: Page2SigComponent },
           { path: 'page-3', component: Page3SigComponent },
+          { path: 'page-4', component: Page4SigComponent },
         ]
       },
     {
