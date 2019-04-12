@@ -14,6 +14,7 @@ import { Pagec4Component } from './pages/our-plans/custom/pagec4/pagec4.componen
 import { Pagec3Component } from './pages/our-plans/custom/pagec3/pagec3.component';
 import { BulkComponent } from './pages/our-plans/bulk/bulk.component';
 import { Pageb1Component } from './pages/our-plans/bulk/pageb1/pageb1.component';
+import { Pageb2Component } from './pages/our-plans/bulk/pageb2/pageb2.component';
 
 const routes: Routes = [
   {
@@ -38,6 +39,7 @@ const routes: Routes = [
       {
         path: 'bulk', component: BulkComponent, children: [
           { path: 'pageb1', component: Pageb1Component },
+          { path: 'pageb2', component: Pageb2Component },
          
 
         ]

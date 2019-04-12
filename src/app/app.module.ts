@@ -25,7 +25,8 @@ import { Page4SigComponent } from './pages/our-plans/sig-meal/page4-sig/page4-si
 import { Pagec3Component } from './pages/our-plans/custom/pagec3/pagec3.component';
 import { Pagec4Component } from './pages/our-plans/custom/pagec4/pagec4.component';
 import { BulkComponent } from './pages/our-plans/bulk/bulk.component';
-import{Pageb1Component}from'./pages/our-plans/bulk/pageb1/pageb1.component'
+import{Pageb1Component}from'./pages/our-plans/bulk/pageb1/pageb1.component';
+import { Pageb2Component } from './pages/our-plans/bulk/pageb2/pageb2.component'
 
 
 @NgModule({
@@ -46,7 +47,8 @@ import{Pageb1Component}from'./pages/our-plans/bulk/pageb1/pageb1.component'
     Pagec3Component,
     Pagec4Component,
     BulkComponent,
-    Pageb1Component
+    Pageb1Component,
+    Pageb2Component
 
     
   ],
