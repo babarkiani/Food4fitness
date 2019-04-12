@@ -19,6 +19,8 @@ import { Page3SigComponent } from './pages/our-plans/sig-meal/page3-sig/page3-si
 
 import { PopupComponent } from './shared/popup/popup.component';
 import { CustomComponent } from './pages/our-plans/custom/custom.component';
+import { Pagec1Component } from './pages/our-plans/custom/pagec1/pagec1.component';
+import { Pagec2Component } from './pages/our-plans/custom/pagec2/pagec2.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { CustomComponent } from './pages/our-plans/custom/custom.component';
     Page1SigComponent,
     Page2SigComponent,
     Page3SigComponent,
-    CustomComponent
+    CustomComponent,
+    Pagec1Component,
+    Pagec2Component
     
   ],
   imports: [
