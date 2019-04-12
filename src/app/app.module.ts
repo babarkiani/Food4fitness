@@ -22,6 +22,8 @@ import { CustomComponent } from './pages/our-plans/custom/custom.component';
 import { Pagec1Component } from './pages/our-plans/custom/pagec1/pagec1.component';
 import { Pagec2Component } from './pages/our-plans/custom/pagec2/pagec2.component';
 import { Page4SigComponent } from './pages/our-plans/sig-meal/page4-sig/page4-sig.component';
+import { Pagec3Component } from './pages/our-plans/custom/pagec3/pagec3.component';
+import { Pagec4Component } from './pages/our-plans/custom/pagec4/pagec4.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { Page4SigComponent } from './pages/our-plans/sig-meal/page4-sig/page4-si
     CustomComponent,
     Pagec1Component,
     Pagec2Component,
-    Page4SigComponent
+    Page4SigComponent,
+    Pagec3Component,
+    Pagec4Component
     
   ],
   imports: [
