@@ -230,3 +230,62 @@ a.change-sel {
     color: white;
     box-shadow: -3px 3px 5px 0px #888888;
 }
+
+/* Remove default bullets */
+
+ul.reciept-list {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+ul.reciept-list li ul {
+    list-style-type: none;
+}
+
+/* Remove margins and padding from the parent ul */
+
+.reciept-list {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the caret/arrow */
+
+.caret-reciept {
+    cursor: pointer;
+    user-select: none;
+    /* Prevent text selection */
+    padding-right: 5px;
+}
+
+/* Create the caret/arrow with a unicode, and style it 
+
+.caret-reciept::before {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+}*/
+
+/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+
+.caret-reciept-down {
+    transform: rotate(90deg);
+}
+
+/* Hide the nested list */
+
+.nested-reciept-list {
+    padding: 10px;
+    margin: 5px;
+    display: none;
+    border-left: 2px solid #d9d8df;
+    font-size: 13px;
+}
+
+/* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+
+.active-reciept-list {
+    display: block;
+}
